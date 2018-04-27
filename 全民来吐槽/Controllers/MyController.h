@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyController.h
 //  全民来吐槽
 //
 //  Created by Mac on 2018/4/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyController : UIViewController
 
 @end
-

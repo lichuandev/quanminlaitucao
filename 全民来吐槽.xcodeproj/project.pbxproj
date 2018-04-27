@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		0479EFE62092B70600482870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EFE52092B70600482870 /* main.m */; };
 		0479EFE92092B70600482870 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EFE82092B70600482870 /* AppDelegate.m */; };
-		0479EFEC2092B70600482870 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EFEB2092B70600482870 /* ViewController.m */; };
 		0479EFEF2092B70600482870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EFED2092B70600482870 /* Main.storyboard */; };
 		0479EFF12092B70600482870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0479EFF02092B70600482870 /* Assets.xcassets */; };
 		0479EFF42092B70600482870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EFF22092B70600482870 /* LaunchScreen.storyboard */; };
 		0479EFFF2092B70600482870 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EFFE2092B70600482870 /* _____Tests.m */; };
 		0479F00A2092B70600482870 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479F0092092B70600482870 /* _____UITests.m */; };
+		0479F0242092BCB600482870 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479F0232092BCB600482870 /* MainController.m */; };
+		0479F0272092C96700482870 /* CALayer+LayerColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479F0262092C96700482870 /* CALayer+LayerColor.m */; };
+		0479F02A2092D38700482870 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479F0292092D38700482870 /* UIColor+FlatUI.m */; };
+		0479F02E2092E9AC00482870 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479F02D2092E9AC00482870 /* HomeController.m */; };
+		0479F0312092E9BD00482870 /* AddController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479F0302092E9BD00482870 /* AddController.m */; };
+		0479F0342092E9D200482870 /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479F0332092E9D200482870 /* MyController.m */; };
+		0479F0372092F5B300482870 /* Spitslot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479F0362092F5B300482870 /* Spitslot.m */; };
+		9774B5C7A8F31AC867CBF2CF /* libPods-全民来吐槽.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42243494A702E4270C40FDA1 /* libPods-全民来吐槽.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +44,35 @@
 /* Begin PBXFileReference section */
 		0479EFE12092B70600482870 /* 全民来吐槽.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "全民来吐槽.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0479EFE52092B70600482870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0479EFE72092B70600482870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0479EFE82092B70600482870 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0479EFEA2092B70600482870 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0479EFEB2092B70600482870 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0479EFE72092B70600482870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		0479EFE82092B70600482870 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		0479EFEE2092B70600482870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0479EFF02092B70600482870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0479EFF02092B70600482870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		0479EFF32092B70600482870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0479EFF52092B70600482870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0479EFF52092B70600482870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		0479EFFA2092B70600482870 /* 全民来吐槽Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "全民来吐槽Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0479EFFE2092B70600482870 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
 		0479F0002092B70600482870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0479F0052092B70600482870 /* 全民来吐槽UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "全民来吐槽UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0479F0092092B70600482870 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		0479F00B2092B70600482870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0479F0222092BCB600482870 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		0479F0232092BCB600482870 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		0479F0252092C96700482870 /* CALayer+LayerColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer+LayerColor.h"; path = "../Others/CALayer+LayerColor.h"; sourceTree = "<group>"; };
+		0479F0262092C96700482870 /* CALayer+LayerColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CALayer+LayerColor.m"; path = "../Others/CALayer+LayerColor.m"; sourceTree = "<group>"; };
+		0479F0282092D38700482870 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+FlatUI.h"; path = "../Others/UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		0479F0292092D38700482870 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FlatUI.m"; path = "../Others/UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		0479F02C2092E9AC00482870 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		0479F02D2092E9AC00482870 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		0479F02F2092E9BD00482870 /* AddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddController.h; sourceTree = "<group>"; };
+		0479F0302092E9BD00482870 /* AddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddController.m; sourceTree = "<group>"; };
+		0479F0322092E9D200482870 /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		0479F0332092E9D200482870 /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
+		0479F0352092F5B300482870 /* Spitslot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spitslot.h; sourceTree = "<group>"; };
+		0479F0362092F5B300482870 /* Spitslot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spitslot.m; sourceTree = "<group>"; };
+		42243494A702E4270C40FDA1 /* libPods-全民来吐槽.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-全民来吐槽.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		598CD9A5AA5BC5CF8C44EBD0 /* Pods-全民来吐槽.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-全民来吐槽.debug.xcconfig"; path = "Pods/Target Support Files/Pods-全民来吐槽/Pods-全民来吐槽.debug.xcconfig"; sourceTree = "<group>"; };
+		A086F548E4C52308C1E6234A /* Pods-全民来吐槽.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-全民来吐槽.release.xcconfig"; path = "Pods/Target Support Files/Pods-全民来吐槽/Pods-全民来吐槽.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9774B5C7A8F31AC867CBF2CF /* libPods-全民来吐槽.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				0479EFFD2092B70600482870 /* 全民来吐槽Tests */,
 				0479F0082092B70600482870 /* 全民来吐槽UITests */,
 				0479EFE22092B70600482870 /* Products */,
+				AA60D0A2BE71823672001A7F /* Pods */,
+				AB56EFABEB3B76492EB55EEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +126,12 @@
 		0479EFE32092B70600482870 /* 全民来吐槽 */ = {
 			isa = PBXGroup;
 			children = (
-				0479EFE72092B70600482870 /* AppDelegate.h */,
-				0479EFE82092B70600482870 /* AppDelegate.m */,
-				0479EFEA2092B70600482870 /* ViewController.h */,
-				0479EFEB2092B70600482870 /* ViewController.m */,
-				0479EFED2092B70600482870 /* Main.storyboard */,
-				0479EFF02092B70600482870 /* Assets.xcassets */,
-				0479EFF22092B70600482870 /* LaunchScreen.storyboard */,
-				0479EFF52092B70600482870 /* Info.plist */,
+				0479F02B2092D3D600482870 /* Category */,
+				0479F01A2092B9BE00482870 /* Tools */,
+				0479F0172092B9BE00482870 /* Controllers */,
+				0479F01B2092B9BE00482870 /* Views */,
+				0479F0182092B9BE00482870 /* Models */,
+				0479F0192092B9BE00482870 /* Others */,
 				0479EFE42092B70600482870 /* Supporting Files */,
 			);
 			path = "全民来吐槽";
@@ -140,6 +163,85 @@
 			path = "全民来吐槽UITests";
 			sourceTree = "<group>";
 		};
+		0479F0172092B9BE00482870 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0479F0222092BCB600482870 /* MainController.h */,
+				0479F0232092BCB600482870 /* MainController.m */,
+				0479F02C2092E9AC00482870 /* HomeController.h */,
+				0479F02D2092E9AC00482870 /* HomeController.m */,
+				0479F02F2092E9BD00482870 /* AddController.h */,
+				0479F0302092E9BD00482870 /* AddController.m */,
+				0479F0322092E9D200482870 /* MyController.h */,
+				0479F0332092E9D200482870 /* MyController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0479F0182092B9BE00482870 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0479F0352092F5B300482870 /* Spitslot.h */,
+				0479F0362092F5B300482870 /* Spitslot.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0479F0192092B9BE00482870 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0479EFE72092B70600482870 /* AppDelegate.h */,
+				0479EFE82092B70600482870 /* AppDelegate.m */,
+				0479EFED2092B70600482870 /* Main.storyboard */,
+				0479EFF02092B70600482870 /* Assets.xcassets */,
+				0479EFF22092B70600482870 /* LaunchScreen.storyboard */,
+				0479EFF52092B70600482870 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		0479F01A2092B9BE00482870 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0479F01B2092B9BE00482870 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0479F02B2092D3D600482870 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0479F0282092D38700482870 /* UIColor+FlatUI.h */,
+				0479F0292092D38700482870 /* UIColor+FlatUI.m */,
+				0479F0252092C96700482870 /* CALayer+LayerColor.h */,
+				0479F0262092C96700482870 /* CALayer+LayerColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AA60D0A2BE71823672001A7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				598CD9A5AA5BC5CF8C44EBD0 /* Pods-全民来吐槽.debug.xcconfig */,
+				A086F548E4C52308C1E6234A /* Pods-全民来吐槽.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB56EFABEB3B76492EB55EEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42243494A702E4270C40FDA1 /* libPods-全民来吐槽.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0479F00E2092B70600482870 /* Build configuration list for PBXNativeTarget "全民来吐槽" */;
 			buildPhases = (
+				FD057B089A41185CB72F32D5 /* [CP] Check Pods Manifest.lock */,
 				0479EFDD2092B70600482870 /* Sources */,
 				0479EFDE2092B70600482870 /* Frameworks */,
 				0479EFDF2092B70600482870 /* Resources */,
+				00FCDE5CFA8842224CBFE848 /* [CP] Embed Pods Frameworks */,
+				79760FE43F152080FFC3FE37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +376,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00FCDE5CFA8842224CBFE848 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-全民来吐槽/Pods-全民来吐槽-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79760FE43F152080FFC3FE37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-全民来吐槽/Pods-全民来吐槽-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD057B089A41185CB72F32D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0479EFDD2092B70600482870 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0479EFEC2092B70600482870 /* ViewController.m in Sources */,
+				0479F0312092E9BD00482870 /* AddController.m in Sources */,
+				0479F02A2092D38700482870 /* UIColor+FlatUI.m in Sources */,
+				0479F0242092BCB600482870 /* MainController.m in Sources */,
+				0479F0342092E9D200482870 /* MyController.m in Sources */,
 				0479EFE92092B70600482870 /* AppDelegate.m in Sources */,
 				0479EFE62092B70600482870 /* main.m in Sources */,
+				0479F02E2092E9AC00482870 /* HomeController.m in Sources */,
+				0479F0372092F5B300482870 /* Spitslot.m in Sources */,
+				0479F0272092C96700482870 /* CALayer+LayerColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +479,7 @@
 				0479EFEE2092B70600482870 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0479EFF22092B70600482870 /* LaunchScreen.storyboard */ = {
@@ -328,6 +488,7 @@
 				0479EFF32092B70600482870 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -425,6 +586,7 @@
 		};
 		0479F00F2092B70600482870 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598CD9A5AA5BC5CF8C44EBD0 /* Pods-全民来吐槽.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9GG46V5HYC;
@@ -437,6 +599,7 @@
 		};
 		0479F0102092B70600482870 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A086F548E4C52308C1E6234A /* Pods-全民来吐槽.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9GG46V5HYC;
@@ -516,6 +679,7 @@
 				0479F0102092B70600482870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0479F0112092B70600482870 /* Build configuration list for PBXNativeTarget "全民来吐槽Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +688,7 @@
 				0479F0132092B70600482870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0479F0142092B70600482870 /* Build configuration list for PBXNativeTarget "全民来吐槽UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +697,7 @@
 				0479F0162092B70600482870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
